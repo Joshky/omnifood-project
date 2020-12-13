@@ -36,9 +36,34 @@ header {
 
 h1 {
     margin: 0;
+    margin-bottom: 20px;
     color: white;
     font-size: 240%;
     font-weight: 300;
     text-transform: uppercase;
     word-spacing: 1px;
 }
+
+/* REUSABLE */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #f39c12;
+    border: 1px solid #f39c12;
+    color: white;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #f39c12;
+    color: #f39c12;
+}
+
