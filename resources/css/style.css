@@ -188,3 +188,43 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #f39c12;
 }
+
+
+/* ------------------------ */
+/* MEALS */
+/* ------------------------ */
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    width: 100%;
+    list-style:none;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img {
+    opacity: 70%;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform .5s, opacity .5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.04);
+    opacity: 1;
+}
