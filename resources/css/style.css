@@ -156,6 +156,24 @@ h3 {
     border: 1px solid #e8930c;
 }
 
+/* LINKS */
+
+a:link,
+a:visited {
+    color: #e8930c;
+    text-decoration: none;
+    border-bottom: 1px solid #e8930c;
+    padding: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+    
+}
+
 /* ------------------------ */
 /* HEADER */
 /* ------------------------ */
